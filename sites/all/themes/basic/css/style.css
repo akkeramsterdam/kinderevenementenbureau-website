@@ -1,0 +1,379 @@
+/* Font styles. */
+/* line 2, ../sass/style.sass */
+
+body {
+  margin: 0;
+  /* Setting up font size, leading and font family
+   * http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography */
+  font-family: 'Didact Gothic', sans-serif; font-size:13px;
+  color:#333;
+  letter-spacing: 0.03em;
+  line-height:130%;
+}
+body.html{
+    background: #94ca4b;
+}
+/* Links */
+/* line 11, ../sass/style.sass */
+
+
+/* Titles. */
+/* line 21, ../sass/style.sass */
+#site-name {
+  font-size: 2.2em;
+  line-height: 1.3em;
+  font-weight: 300;
+  padding: 0 0 0.5em;
+  margin: 0; }
+
+/* line 28, ../sass/style.sass */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3em; }
+
+/* line 31, ../sass/style.sass */
+h1 {
+  font-size: 2.2em;
+  font-weight: 300;
+  padding: 0 0 0.5em;
+  margin: 0; }
+
+/* line 37, ../sass/style.sass */
+h2 {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 0.75em; }
+
+/* line 42, ../sass/style.sass */
+h3 {
+  font-size: 1em;
+  margin-bottom: 0.2em; }
+
+/* line 46, ../sass/style.sass */
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 0.8em; }
+
+/* line 50, ../sass/style.sass */
+h5 {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0; }
+
+/* line 55, ../sass/style.sass */
+h6 {
+  font-size: 1em;
+  font-weight: bold; }
+
+/* Paragraph styles. */
+/* line 60, ../sass/style.sass */
+p {
+  margin: 0 0 1em 0; }
+
+/* List styles. */
+/* line 64, ../sass/style.sass */
+ul, ol {
+  margin-left: 0;
+  padding-left: 2em; }
+
+/* Table styles. */
+/* line 69, ../sass/style.sass */
+table {
+  width: 99%; }
+
+/* line 74, ../sass/style.sass */
+tr.even td,
+tr.odd td {
+  padding: 10px 5px; }
+
+/* line 77, ../sass/style.sass */
+tr.odd {
+  background-color: white; }
+
+/* Code. */
+/* line 81, ../sass/style.sass */
+pre, code, tt {
+  font: 1em "andale mono", "lucida console", monospace;
+  line-height: 1.5; }
+
+/* line 85, ../sass/style.sass */
+pre {
+  background-color: #efefef;
+  display: block;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #aaaaaa; }
+
+/* List styles. */
+/* line 93, ../sass/style.sass */
+ul {
+  list-style-type: disc; }
+  /* line 95, ../sass/style.sass */
+  ul ul {
+    list-style-type: circle; }
+    /* line 97, ../sass/style.sass */
+    ul ul ul {
+      list-style-type: square; }
+      /* line 99, ../sass/style.sass */
+      ul ul ul ul {
+        list-style-type: circle; }
+
+/* line 102, ../sass/style.sass */
+ol {
+  list-style-type: decimal; }
+  /* line 104, ../sass/style.sass */
+  ol ol {
+    list-style-type: lower-alpha; }
+    /* line 106, ../sass/style.sass */
+    ol ol ol {
+      list-style-type: decimal; }
+
+/* Abbreviation. */
+/* line 110, ../sass/style.sass */
+abbr {
+  border-bottom: 1px dotted #666666;
+  cursor: help;
+  white-space: nowrap; }
+
+/* UI improvments. */
+/* line 116, ../sass/style.sass */
+#edit-title {
+  font-size: 24px;
+  width: 99%; }
+
+/* line 120, ../sass/style.sass */
+#system-themes-form img {
+  width: 100px; }
+
+a{color:#94CA4B; text-decoration:none; font-weight:bold;}
+a:hover{text-decoration:underline;}
+/* line 123, ../sass/style.sass */
+.form-item .description {
+  font-style: italic;
+  line-height: 1.2em;
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: #777777; }
+
+/* line 130, ../sass/style.sass */
+#edit-delete {
+  color: #cc0000; }
+
+/* Console, style from slate theme. */
+/* line 134, ../sass/style.sass */
+div.messages {
+  padding: 9px;
+  margin: 1em 0;
+  color: #003366;
+  background: #bbddff;
+  border: 1px solid #aaccee; }
+
+/* line 141, ../sass/style.sass */
+div.warning {
+  color: #884400;
+  background: #ffee66;
+  border-color: #eedd55; }
+
+/* line 146, ../sass/style.sass */
+div.error {
+  color: white;
+  background: #ee6633;
+  border-color: #dd5522; }
+
+/* line 151, ../sass/style.sass */
+div.status {
+  color: #336600;
+  background: #ccff88;
+  border-color: #bbee77; }
+
+/* Region Colors. delete when starting a new theme. */
+/* line 157, ../sass/style.sass */
+#header {
+  padding: 25px 25px 0 25px;
+}
+
+/* line 160, ../sass/style.sass */
+#sidebar-first {
+  background: #e7edff; }
+
+/* line 163, ../sass/style.sass */
+#sidebar-second {
+  background: #ffd075; }
+
+/* line 166, ../sass/style.sass */
+#navigation {
+}
+
+#content-container{
+  width: 950px;
+  position: relative;
+  margin-left: 25px;
+  height:440px;
+
+}
+
+.background-image{
+  width:950px;
+  height: 440px;
+  position: absolute;
+  top:0;
+  left:0; 
+  z-index:1;
+}
+
+.node-content ul{
+  margin-bottom:10px;
+}
+
+body.front .node-content{
+  background:url('../images/content-bg.png') no-repeat bottom center;
+  width:300px;
+  padding:25px;
+  height:390px;
+  position:absolute;
+  z-index:2; top:0; right:25px;
+}
+
+body.not-front .node-content{
+  background:url('../images/content-bg-2.png') bottom center;
+  width:580px;
+  padding:25px;
+  height:390px;
+  position:absolute;
+  overflow-y:scroll;
+  z-index:2; top:0; left:0;
+}
+
+body.not-front .vlakje{
+  background:url('../images/content-bg-2.png');
+  width:25px;
+  height:440px;
+  position:absolute;
+  z-index:2;
+  top:0; right:0;
+}
+
+.webform-client-form, .view {
+  position:absolute;
+  left:25px;
+  top:150px;
+  width:580px;
+  z-index:2;
+}
+
+#footer{padding:45px 25px 25px 25px; text-align:center;}
+
+.webform-container-inline label{display:inline-block; width:130px;}
+
+input.form-text{border-radius:8px; height:25px; padding-left:4px; padding-right:4px; line-height:25px; border:1px solid #ccc; }
+textarea.form-textarea{border-radius:8px; border:1px solid #ccc; padding:4px; }
+input.form-submit{border-radius:8px; padding:8px; display:inline-block; background:#94ca4b; color:white; font-weight:bold; border:0; }
+
+form{z-index:3;}
+
+#header-region{background:url('../images/menu-bg.png') no-repeat top center; height:34px; padding-top:8px; margin-top:5px; margin-bottom:0px;}
+#block-superfish-1{margin-bottom:5px;}
+.sf-menu li a{height:27px; line-height:27px; border-radius:8px; color:#94ca4b; padding-left:7px; padding-right:7px; font-weight:bold;}
+.sf-menu li{padding-right:5px; border-right:1px solid #ccc; margin-right:5px; }
+.sf-menu li a:hover, .sf-menu li a.active{background:#94ca4b; color:white; text-decoration:none;}
+.sf-menu a.menuparent{padding-right:23px; background-image:url('../images/arrrow-green.png'); background-repeat:no-repeat; background-position:right center;}
+.sf-menu a.menuparent:hover, .sf-menu li.menuparent a.active{background-image:url('../images/arrow-white.png'); background-repeat:no-repeat; background-position:right center;}
+.sf-menu li ul li{border-right:0; border-left:0; width:200px;}
+.sf-menu li ul li a{border-radius:0; border-bottom: 1px solid #ccc; width:200px;}
+.sf-menu li ul li.last a{border-radius:0 0 8px 8px; border:0;}
+.sf-menu li ul li.first a{border-radius:8px 8px 0 0;}
+.sf-menu li ul {background:white; padding:0; border-radius:8px;
+  -moz-box-shadow: 0px 0px 10px #666;
+  -webkit-box-shadow: 0px 0px 10px #666;
+  box-shadow: 0px 0px 10px #666;}
+
+a.twitter{width:28px; height:28px; text-indent:-999px; float:right; margin-left:5px; overflow:hidden; background:url('../images/twitter.png');}
+a.twitter:hover{opacity:0.80; }
+a.pinterest{width:28px; height:28px; text-indent:-999px; float:right; margin-left:5px; overflow:hidden; background:url('../images/pinterest.png');}
+a.pinterest:hover{opacity:0.80; }
+a.linkedin{width:28px; height:28px;  overflow:hidden;  text-indent:-999px; margin-left:5px; float:right; background:url('../images/linkedin.png');}
+a.linkedin:hover{opacity:0.80;}
+a.facebook{width:28px; height:28px;  overflow:hidden;  text-indent:-999px; margin-left:5px; float:right; background:url('../images/facebook.png');}
+a.facebook:hover{opacity:0.80;}
+a#logo{float:left; height:127px;}
+#header{float:left; width:950px; /*position:relative;*/}
+.slogan{/*position:absolute; top:10px; left:300px;*/float:left; width:444px; height:124px; background:url('../images/slogan.png') no-repeat top left; margin-left: 35px; margin-top: -12px;}
+a.call-me{float:left; height: 91px; margin-left: 34px; margin-top: 34px;}
+
+#block-superfish-1{width:85%; float:left;}
+#block-block-1{width:15%; float:right;}
+.region-header{float:left; width:950px;}
+#block-block-1 p{margin:0; padding:0;}
+#header-region{width:950px; float:left;}
+
+#content-container h2{text-align:center; color:#94ca4b; font-size:28px;}
+
+.view-foto-s img{margin-right:5px; margin-bottom:5px;}
+
+#sliderContainer { width: 950px; height: 440px; position: relative; margin: 0 auto; }
+
+#main{position:relative; float:left; margin-top:25px;}
+
+	/*
+		Load CSS before JavaScript
+	*/
+	
+	/*
+		Slides container
+		Important:
+		Set the width of your slides container
+		Set to display none, prevents content flash
+	*/
+	.slides_container {
+		width:950px;
+		display:none;
+	}
+
+	/*
+		Each slide
+		Important:
+		Set the width of your slides
+		If height not specified height will be set by the slide content
+		Set to display block
+	*/
+	.slides_container div {
+		width:950px;
+		height:440px;
+		display:block;
+	}
+	
+	/*
+		Optional:
+		Reset list default style
+	*/
+	.pagination {
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+
+	/*
+		Optional:
+		Show the current slide in the pagination
+	*/
+	.pagination .current a {
+		color:red;
+	}
+	strong{font-weight:normal;}
+	
+	.view-albums-overzicht {width:100%; height:100%; position:absolute; top:0; left:0;}
+	.view-albums-overzicht .views-row{width:140px; height:140px;float:left; text-align:center; padding:20px; margin-right:12px; margin-bottom:11px; background:#ececec; border-radius:10px;}
+		.view-albums-overzicht .views-row img{margin-bottom:5px;}
+		.view-albums-overzicht .views-row-5, .view-albums-overzicht .views-row-10{margin-right:0;}
+	.view-albums-overzicht .views-row:hover .views-field-title a{color:white;}
+	.view-albums-overzicht .views-row:hover{background:#94ca4b;}
+	
+.view-foto-s .views-field-field-image img{float:left;}
+#footer{position:relative;}
+#footerlink {width:117px; height:30px; display:block; position:absolute; bottom:33px; right:25px; background:url('../images/erkend.png');}
+#footerlink2 {width:117px; height:30px; z-index:999;display:block; position:absolute; bottom:33px; left:25px; background:url('../images/nieuwsbrief.png');}
+
+.fifty{
+  width:50%;
+   float:left;
+}
+

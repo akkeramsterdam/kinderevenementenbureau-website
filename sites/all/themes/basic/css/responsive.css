@@ -1,0 +1,189 @@
+/* Responsive */
+@media only screen and (max-width: 767px) {
+
+#page{
+	width:300px;
+	height:auto;
+	background-image:none;
+	overflow-x:hidden;
+	overflow-y:visible;
+}
+
+#header{
+	width:300px;
+	padding:25px 0 0 0;
+}
+
+#main{
+	margin-top:5px;
+	overflow:show;
+	width:300px;
+}
+
+#header-region{
+	width:300px;
+	height:80px;
+}
+
+#tool{
+	width:300px;
+	margin:0 auto;
+}
+
+a.call-me{
+	width:260px;
+	padding:20px;
+	height:auto;
+	margin: 0;
+}
+.call-me img{
+	width:100%;
+	height:auto;
+	display:block;	
+}
+
+a#logo{
+	width:260px;
+	padding:20px;
+	height:auto;
+}
+
+a#logo img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+
+.slogan{
+	width:260px;
+	height:73px;
+	margin: 020px 20px 20px;
+	background:url('../images/slogan_260.png') no-repeat center center;
+}
+
+#content-container{
+	width:300px;
+	margin-left:0;
+	height:auto;
+}
+
+.background-image{
+	width:300px;
+	position:static;
+	top:auto;
+	left:auto;
+	height:140px;
+	float:left;
+	clear:both;
+}
+
+body.not-front .node-content,
+body.front .node-content,
+#main .node-content{
+	width:260px;
+	padding:20px;
+	position:static;
+	height:auto;
+	overflow:visible;
+	top:auto;
+	left:auto;
+	float:left;
+	clear:both;
+}
+
+#footer{
+	padding:5px;
+}
+
+.slides_container{
+	width:300px;
+	height:140px;
+}
+
+.slides_container div{
+	width:300px;
+	height:140px;
+}
+
+.slides_container div img{
+	width:300px;
+	height:auto;
+}
+
+.vlakje{
+	display:none;
+}
+
+#block-superfish-1{
+	width:260px;
+	margin-left:15px;
+	clear:both;
+}
+
+#block-superfish-1 select{
+	margin-top:4px;
+}
+
+
+#block-block-1{
+	width:260px;
+	margin-left:20px;
+	margin-top:15px;
+	clear:both;
+	float:left;
+}
+
+a.facebook,
+a.twiter,
+a.linkedin{}
+
+input.form-text{
+	max-width:252px;
+}
+
+#footerlink,
+#footerlink2{
+	position:static;
+	bottom:auto;
+	right:auto;
+	margin:10px auto;
+}
+
+.webform-client-form,
+.view{
+	position:static;
+	left:auto;
+	top:auto;
+	width:260px;
+	padding:0;
+	float:left;
+	clear:both;
+
+}
+
+.view-foto-s .views-row img{
+	width:80px;
+	height:auto;
+}
+
+.fifty{
+	width:100%;
+	margin-top:20px;
+}
+
+.view-albums-overzicht{
+	height:auto;
+	left:auto;
+	top:auto;
+	float:left;
+	display:block;
+	clear:both;
+	position:static;
+}
+
+.view-albums-overzicht .views-row{
+	margin:5px;
+	width:100px;
+}
+
+}

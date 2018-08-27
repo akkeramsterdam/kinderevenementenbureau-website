@@ -1,0 +1,19 @@
+#tool {width:1000px; margin: auto; padding-top:25px;}
+.tabs {float:left;}
+.tabs ul.primary li.active a{background:#919291; display:block; color:white; float:left; border-radius:10px 10px 0 0; padding:8px 10px 8px 10px; font-family:Verdana; font-size:11px; border:0;}
+.tabs ul.primary li a{color:#919291; border-radius:10px 10px 0 0; line-height:100%;display:block; float:left; padding:8px 10px 8px 10px; font-family:Verdana; font-size:11px; border:0;}
+.tabs ul.primary{border:0; padding:0; float:left; margin:0 0 0 25px;}
+#adminmenu ul.menu{list-style:none; float:right; margin:0 25px 0 0; padding:0;}
+#adminmenu ul.menu li.active a{background:#919291; display:block; color:white; float:left; border-radius:10px 10px 0 0; padding:8px 5px 8px 5px; font-family:Verdana; font-size:11px; border:0;}
+#adminmenu ul.menu li a{
+	background-color: #DDD;
+	border-color: #BBB;
+	border-style: solid solid none solid;
+	border-width: 1px;
+	height: auto;
+	margin-right: 0.5em;
+	line-height:100%;
+
+	text-decoration: none;color:#919291; border-radius:10px 10px 0 0; display:block; float:left; padding:8px 5px 8px 5px; font-family:Verdana; font-size:11px; border:0;}
+#adminmenu ul.menu li{margin:0; padding:0; list-style:none; display:inline;}
+#block-system-user-menu{float:left;}
